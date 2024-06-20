@@ -1,6 +1,6 @@
-raw = load('./model/log_test.txt');
+raw = load('./model_20k_5l/log_test.txt');
 
-step = 5;
+step = 2;
 SNR = 0:step:20;
 num_snr = length(SNR);
 
